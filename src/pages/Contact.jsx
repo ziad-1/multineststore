@@ -1,0 +1,75 @@
+import React from 'react'
+
+export default function Contact() {
+  return (
+    <>
+        <section className="contact-section mt-20">
+            <div className="px-[8%] lg:px-[12%] py-[50px]">
+                <h2 className="section-title text-3xl font-bold text-center">Keep In Touch With Us</h2>
+                <p className='section-subtitle text-center mt-2 text-gray-600'>
+                    Be the first to know about new skincare launches, exclusive
+                    offers, and <br />
+                    expert beauty tips for radiant skin.
+                </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+                    <div className="contact-box text-left p-6">
+                        <i className="ri-map-pin-line icon text-3xl mb-2"></i>
+                        <h5 className='text-2xl font-semibold mb-1'>Address</h5>
+                        <p>Renom IT Solutions, 2nd Floor, Siddhardth Complex,</p>
+                        <p className="mb-4">Alkapury, Vadodara, Gujarat - 390007</p>
+                        <a href="#" className='line font-bold hover:underline!'>Get Direction</a>
+                    </div>
+                    <div className="contact-box text-left p-6">
+                        <i className="ri-phone-line icon text-3xl mb-2"></i>
+                        <h5 className='text-2xl font-semibold mb-1'>Contact</h5>
+                        <p className='text-gray-400'>
+                            <strong className='text-black'>Mobile : </strong>
+                            +20 101 014 8977
+                        </p>
+                        <p className='text-gray-400'>
+                            <strong className='text-black'>Phone : </strong>
+                            +20 101 014 8977
+                        </p>
+                        <p className='text-gray-400'>
+                            <strong className='text-black'>Email : </strong>
+                            zyadabdelsalam90@gmail.com
+                        </p>
+                    </div>
+                    <div className="contact-box text-left p-6">
+                        <i className="ri-time-line icon text-3xl mb-2"></i>
+                        <h5 className='text-2xl font-semibold mb-1'>Hour o Operation</h5>
+                        <p className='text-gray-400'>
+                            <strong className='text-black'>Mon - Fri : </strong>
+                            08:30 - 20:00
+                        </p>
+                        <p className='text-gray-400'>
+                            <strong className='text-black'>Sat & Sun : </strong>
+                            9:30 - 21:30
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div className="contact-page">
+            {/* map section */}
+            <section className='map-location px-[8%] lg:px-[12%]'>
+                <iframe title='Our Location' className='map rounded w-full h-96' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1737802.2720805667!2d29.308555982031248!3d31.711932161887425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c49126710fd3%3A0xb4e0cda629ee6bb9!2z2KfZhNil2LPZg9mG2K_YsdmK2KnYjCDZhdit2KfZgdi42Kkg2KfZhNil2LPZg9mG2K_YsdmK2Kk!5e0!3m2!1sar!2seg!4v1763305428879!5m2!1sar!2seg" allowFullScreen></iframe>
+            </section>
+            {/* contact form */}
+            <section className='message-section text-center mt-16 px-4'>
+                <h2 className='form-title text-3xl font-bold text-center mb-8'>Send A Message</h2>
+                <form className='contact-form  max-w-4xl mx-auto'>
+                    <div className='row grid grid-cols-1 md:grid-cols-2 gap-4 mb-4'>
+                        <input type="text" placeholder='Name' className='input border border-gray-300 px-4 py-2 rounded' />
+                        <input type="email" placeholder='Email' className='input border border-gray-300 px-4 py-2 rounded' />
+                    </div>
+                    <div className="row mb-4">
+                        <textarea placeholder='Messgae' className='text-erea w-full border border-gray-300 px-4 py-2 rounded h-32'></textarea>
+                    </div>
+                    <button type='submit' className='bg-blue-600 text-white cursor-pointer px-5 py-2 rounded-md hover:bg-blue-700'>Submit</button>
+                </form>
+            </section>
+        </div>
+    </>
+  )
+}

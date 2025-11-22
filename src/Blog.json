@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "pere":"Elevate Your Space : The Art of Stylish Furnishing!",
+        "title":"News",
+        "image":"/Images/blog-1.webp",
+        "author":"New Post on",
+        "date":"Jan 10, 2025"
+    },
+    {
+        "id":2,
+        "pere":"Wardrobe Wonders: Unraveling The Enigma of Fashion",
+        "title":"News",
+        "image":"/Images/blog-2.webp",
+        "author":"New Post on",
+        "date":"Jan 11, 2025"
+    },
+    {
+        "id":3,
+        "pere":"The Art and Science of Web Design: Trends, Tips, and Techniques",
+        "title":"News",
+        "image":"/Images/blog-3.webp",
+        "author":"New Post on",
+        "date":"Jan 12, 2025"
+    },
+    {
+        "id":4,
+        "pere":"The Art Of Blogging: Mastering Your Voice and Audience Engagement",
+        "title":"News",
+        "image":"/Images/blog-4.webp",
+        "author":"New Post on",
+        "date":"Jan 13, 2025"
+    },
+    {
+        "id":5,
+        "pere":"The Ultimate Guide to Black Friday: Tips, Deals, and Must-Have items",
+        "title":"News",
+        "image":"/Images/blog-5.webp",
+        "author":"New Post on",
+        "date":"Jan 14, 2025"
+    },
+    {
+        "id":6,
+        "pere":"How to Host a Magical Christmas Party: Tips and Ideas",
+        "title":"News",
+        "image":"/Images/blog-6.webp",
+        "author":"New Post on",
+        "date":"Jan 15, 2025"
+    },
+    {
+        "id":7,
+        "pere":"Christmas Eve Traditions: Creating Magical Memories",
+        "title":"News",
+        "image":"/Images/blog-7.webp",
+        "author":"New Post on",
+        "date":"Jan 16, 2025"
+    },
+    {
+        "id":8,
+        "pere":"10 Creative DIY Christmas Decorations to Spruce Up Your Home",
+        "title":"News",
+        "image":"/Images/blog-8.webp",
+        "author":"New Post on",
+        "date":"Jan 17, 2025"
+    },
+    {
+        "id":9,
+        "pere":"Affordable Designer Bags: Style Without Breaking the Bank",
+        "title":"News",
+        "image":"/Images/blog-9.webp",
+        "author":"New Post on",
+        "date":"Jan 18, 2025"
+    },
+    {
+        "id":10,
+        "pere":"Sustainable Bags: Eco-Friendly Options For the Conscious Shopper",
+        "title":"News",
+        "image":"/Images/blog-10.webp",
+        "author":"New Post on",
+        "date":"Jan 19, 2025"
+    },
+    {
+        "id":11,
+        "pere":"The Ultimate Guide to Choosing the Perfect Bag for Every Occasion",
+        "title":"News",
+        "image":"/Images/blog-11.webp",
+        "author":"New Post on",
+        "date":"Jan 20, 2025"
+    },
+    {
+        "id":12,
+        "pere":"How to Safely Use Marijuana products: A Comprehensive Guide",
+        "title":"News",
+        "image":"/Images/blog-12.webp",
+        "author":"New Post on",
+        "date":"Jan 21, 2025"
+    }
+]
