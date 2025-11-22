@@ -13,7 +13,7 @@ import Shop from './pages/Shop'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import ScrollToTop from './components/ScrollToTop'
-import Checkout from './pages/CheckOut'
+import Checkout from './pages/Checkout'
 
 export default function App() {
   return (
