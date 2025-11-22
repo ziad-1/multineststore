@@ -4,7 +4,7 @@ import { ToastContainer , toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 
-export default function CheckOut() {
+export default function Checkout() {
     const [deliveryOption , setDeliveryOption] = useState('ship');
     const [cartItems , setCartItems] = useState([]);
     useEffect(()=>{
