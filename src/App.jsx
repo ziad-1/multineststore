@@ -8,12 +8,12 @@ import Footer from './components/footer/Footer'
 import ProductDetails from './pages/ProductDetails'
 import Cart from './pages/Cart'
 import Wishlist from './pages/Wishlist'
-import CheckOut from './pages/CheckOut'
 import About from './pages/About'
 import Shop from './pages/Shop'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
 import ScrollToTop from './components/ScrollToTop'
+import Checkout from './pages/CheckOut'
 
 export default function App() {
   return (
@@ -26,7 +26,7 @@ export default function App() {
           <Route path='/product/:id' element={<ProductDetails/>}/>
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/wishlist' element={<Wishlist/>}/>
-          <Route path='/checkout' element={<CheckOut/>}/>
+          <Route path='/checkout' element={<Checkout/>}/>
           <Route path='/about' element={<About/>}/>
           <Route path='/shop' element={<Shop/>}/>
           <Route path='/blog' element={<Blog/>}/>
